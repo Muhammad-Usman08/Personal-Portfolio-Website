@@ -520,6 +520,18 @@
     }
 }
 
+@media (max-width:500px) {
+    .line-1 {
+        display: none;
+    }
+}
+
+@media(max-width:400px) {
+    .for-mobile {
+        display: none;
+    }
+}
+
 
 
 
@@ -607,8 +619,9 @@
 @media(max-width : 400px) {
     .sec-2-para {
         font-size: 15px;
-        margin-left: 14px;
+        margin-left: 12px;
         margin-right: 7px;
+        text-align: center;
     }
 
     .sec-2 h2 {
@@ -755,6 +768,12 @@
 @media(max-width:767px)and (min-width:450px) {
     .skils-image img {
         width: 35%;
+    }
+}
+
+@media(max-width:449px){
+    .skils-image img{
+        width: 43%;
     }
 }
 
@@ -1485,6 +1504,7 @@
 .rights {
     margin-top: 30px;
     color: #697682;
+    font-family: "Sarabun", sans-serif;
 }
 
 .created {
@@ -1496,6 +1516,7 @@
 .madeby {
     font-size: 17px;
     color: #67ff00;
+    font-weight: 500;
 }
 
 @media(max-width : 991px) {
