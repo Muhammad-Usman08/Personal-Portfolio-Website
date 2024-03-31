@@ -1,3 +1,44 @@
+//Preloader
+document.addEventListener("DOMContentLoaded", function() {
+  var loaderContainer = document.getElementById("loaderContainer");
+
+  setTimeout(function() {
+      loaderContainer.style.display = "none"; // hide loader container after 1 second
+  }, 1500);
+});
+
+
+// Toggle function
+document.addEventListener("DOMContentLoaded", function () {
+  function toggleOffcanvas() {
+    document.getElementById('toggleButton').click();
+  }
+
+  function attachClickListener() {
+    var navLinks = document.querySelectorAll('.nav-link');
+    navLinks.forEach(function (navLink) {
+      navLink.addEventListener('click', toggleOffcanvas);
+    });
+  }
+
+  if (window.innerWidth <= 991) {
+    attachClickListener();
+  }
+
+  window.addEventListener('resize', function () {
+    if (window.innerWidth <= 991) {
+      attachClickListener();
+    } else {
+      var navLinks = document.querySelectorAll('.nav-link');
+      navLinks.forEach(function (navLink) {
+        navLink.removeEventListener('click', toggleOffcanvas);
+      });
+    }
+  });
+});
+
+
+
 const firebaseConfig = {
   apiKey: "AIzaSyCZU3lD7Y6BuRF9iJu7H4POOZOM0H0B8OM",
   authDomain: "musmanjs.firebaseapp.com",
@@ -72,45 +113,3 @@ let getValue = () => {
     message.value = "";
   }
 }
-
-
-
-//Preloader
-document.addEventListener("DOMContentLoaded", function() {
-  var loaderContainer = document.getElementById("loaderContainer");
-
-  setTimeout(function() {
-      loaderContainer.style.display = "none"; // hide loader container after 1 second
-  }, 1500);
-});
-
-
-// Toggle function
-document.addEventListener("DOMContentLoaded", function () {
-  function toggleOffcanvas() {
-    document.getElementById('toggleButton').click();
-  }
-
-  function attachClickListener() {
-    var navLinks = document.querySelectorAll('.nav-link');
-    navLinks.forEach(function (navLink) {
-      navLink.addEventListener('click', toggleOffcanvas);
-    });
-  }
-
-  if (window.innerWidth <= 991) {
-    attachClickListener();
-  }
-
-  window.addEventListener('resize', function () {
-    if (window.innerWidth <= 991) {
-      attachClickListener();
-    } else {
-      var navLinks = document.querySelectorAll('.nav-link');
-      navLinks.forEach(function (navLink) {
-        navLink.removeEventListener('click', toggleOffcanvas);
-      });
-    }
-  });
-});
-
