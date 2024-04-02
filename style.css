@@ -968,6 +968,13 @@
     border-top: 0;
 }
 
+@media(max-width:991px){
+    
+#quizapp{
+    margin-top: -27px;   
+  }
+}
+
 .card-main:hover {
     background: linear-gradient(to right, #c5ff18, #67ff00);
 }
@@ -1020,13 +1027,8 @@
 }
 
 @media(max-width : 1200px) and (min-width : 991px) {
-    .todo-project {
-        display: none;
-        width: 10%;
-    }
-
     .todo-img {
-        display: none;
+        /* display: none; */
         width: 50%;
     }
 }
