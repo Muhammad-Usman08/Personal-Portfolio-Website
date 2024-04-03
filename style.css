@@ -500,14 +500,13 @@
 }
 
 .sec-2 {
-    padding-top: 100px;
+    padding-top: 110px;
     padding-bottom: 50px;
     color: white;
     text-align: center;
 }
 
 .sec-2 h2 {
-    margin-bottom: 15px;
     font-family: "Sarabun", sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -623,7 +622,6 @@
 /* ====Section 3 About-Page====== */
 .sec-3-heading {
     padding-bottom: 2em;
-    margin-top: 40px;
 }
 
 @media(max-width:767px) {
@@ -968,11 +966,11 @@
     border-top: 0;
 }
 
-@media(max-width:991px){
-    
-#quizapp{
-    margin-top: -27px;   
-  }
+@media(max-width:991px) {
+
+    #quizapp {
+        margin-top: -27px;
+    }
 }
 
 .card-main:hover {
@@ -1402,7 +1400,7 @@
 /* ======Footer Styling====== */
 .footer-main {
     padding-top: 130px;
-    padding-bottom: 155px;
+    padding-bottom: 210px;
     background-color: #111111;
 }
 
@@ -1462,6 +1460,28 @@
 
 .footer-link:hover {
     color: #fff;
+}
+
+.tags-main {
+    display: flex;
+    align-items: start;
+    margin-top: 35px;
+}
+
+.tags-main-2 {
+    display: flex;
+    align-items: start;
+}
+
+
+.popularTags {
+    border: 1px solid #8e8e8e;
+    padding: 8px 30px 8px 30px;
+}
+
+.popularTags:hover {
+    color: #67ff00;
+    border-color: #67ff00;
 }
 
 .rights {
