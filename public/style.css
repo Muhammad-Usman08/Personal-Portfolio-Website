@@ -67,15 +67,15 @@
 
 .navbar-brand {
     color: #fff;
-    font-family: var(--h1-font);
-    font-weight: 700;
+    font-weight: 600;
+    font-family: "Sarabun", sans-serif;
     font-size: 24px;
 }
 
 .navbar-span {
     font-size: 19px;
     color: #67ff00;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .navbar-brand:hover {
@@ -232,6 +232,12 @@
 
     .hireme {
         margin-top: 30px;
+    }
+}
+
+@media(max-width:991px){
+    #navbar-fb{
+        display: none;
     }
 }
 
@@ -1400,8 +1406,14 @@
 /* ======Footer Styling====== */
 .footer-main {
     padding-top: 130px;
-    padding-bottom: 210px;
+    padding-bottom: 230px;
     background-color: #111111;
+}
+
+@media(max-width:991px) {
+    .footer-main {
+        padding-bottom: 170px;
+    }
 }
 
 .footer-design {
