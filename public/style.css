@@ -2,7 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+
 }
+
 
 
 /* Preloader */
@@ -66,16 +69,21 @@
 }
 
 .navbar-brand {
-    color: #fff;
-    font-weight: 600;
-    font-family: "Sarabun", sans-serif;
     font-size: 24px;
+    font-weight: 990;
+    background: linear-gradient(90deg, #fff, #ffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: var(--h1-font);
 }
 
 .navbar-span {
     font-size: 19px;
-    color: #67ff00;
-    font-weight: 600;
+    font-weight: 990;
+    background: linear-gradient(90deg, #ccfd39, #69ff04);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: var(--h1-font);
 }
 
 .navbar-brand:hover {
@@ -93,6 +101,14 @@
     border: 2px solid #67ff00;
     background-color: black;
     color: #fff;
+}
+
+#navbar-fb {
+    color: #8e8e8e;
+}
+
+#navbar-fb:hover {
+    color: #67ff00;
 }
 
 .navbar-phone img {
@@ -176,8 +192,8 @@
 @media only screen and (max-width: 991px) and (min-width : 768px) {
     .navbar {
         position: fixed;
-        width: 100%;
         z-index: 1030;
+        width: 100%;
     }
 
     .mynavbar {
@@ -199,7 +215,7 @@
         max-width: 400px;
         overflow-y: auto;
         transform: translateX(-100%);
-        /* transition: transform 0.3s ease; */
+        transition: transform 0.3s ease;
     }
 
     .offcanvas.open {
@@ -235,17 +251,17 @@
     }
 }
 
-@media(max-width:991px){
-    #navbar-fb{
+@media(max-width:991px) {
+    #navbar-fb {
         display: none;
     }
 }
 
 @media only screen and (max-width: 767px) {
     .navbar {
-        position: fixed;
         width: 100%;
         z-index: 1030;
+        position: fixed;
     }
 
     .mynavbar {
@@ -266,7 +282,7 @@
         max-width: 250px;
         overflow-y: auto;
         transform: translateX(-100%);
-        /* transition: transform 0.3s ease; */
+        transition: transform 0.3s ease;
     }
 
     .offcanvas.open {
@@ -396,10 +412,6 @@
         margin-bottom: 100px;
     }
 
-    .sec-1 {
-        margin-top: 200px;
-    }
-
     .sec-1 h1 {
         font-size: 50px;
     }
@@ -424,7 +436,7 @@
 
 @media (max-width : 450px) {
     .sec-1-main {
-        padding-top: 40px;
+        /* padding-top: 40px; */
         margin-bottom: 9em;
     }
 
@@ -567,7 +579,7 @@
 
 @media (max-width : 567px) {
     .sec-2-para {
-        font-size: 16px;
+        font-size: 17px;
         margin-left: 40px;
         margin-right: 25px;
         margin-top: -30px;
@@ -579,10 +591,9 @@
     }
 }
 
-
 @media(max-width : 430px) {
     .sec-2-para {
-        font-size: 15px;
+        font-size: 16px;
         margin-left: 12px;
         margin-right: 2px;
         text-align: center;
@@ -689,6 +700,12 @@
 
 
 /* =====Section 5 About ===== */
+@media(min-width:992px) {
+    #myskills {
+        margin-top: -30px;
+    }
+}
+
 .skils-image img {
     margin-top: 80px;
     width: 50%;
@@ -894,7 +911,6 @@
     font-family: 'Poppins', sans-serif;
     color: #ffff;
     transition: 0.5s;
-
 }
 
 .card-text {
@@ -934,7 +950,6 @@
     color: #fff;
 }
 
-
 .card-main {
     width: 450px;
     background-color: #111111;
@@ -973,16 +988,22 @@
 }
 
 @media(max-width:991px) {
-
     #quizapp {
         margin-top: -27px;
+    }
+
+    #project {
+        margin-top: -26px;
+    }
+
+    #quizapp {
+        margin-top: -89px;
     }
 }
 
 .card-main:hover {
     background: linear-gradient(to right, #c5ff18, #67ff00);
 }
-
 
 .myborder {
     border-radius: 5px;
@@ -992,7 +1013,6 @@
 .myborder:hover {
     background-color: #c5ff18;
 }
-
 
 .sec-2-project-main {
     display: flex;
@@ -1009,7 +1029,6 @@
         margin-top: 0;
     }
 }
-
 
 @media (max-width : 1320px) and (min-width : 991px) {
     .card-main {
@@ -1088,6 +1107,10 @@
     .quiz-app-main {
         margin-top: 60px;
     }
+
+    #quiz-img {
+        margin-top: 40px;
+    }
 }
 
 @media (max-width : 767px) {
@@ -1144,8 +1167,12 @@
     }
 
     .card-img-top {
-        margin-top: -5px;
         width: 100%;
+        margin-top: 0px;
+    }
+
+    #quiz-img {
+        margin-top: 90px;
     }
 
     .card-text {
@@ -1169,7 +1196,6 @@
         margin-left: 25px;
     }
 }
-
 
 
 /* **********************Contact Styling***************************** */
@@ -1412,7 +1438,7 @@
 
 @media(max-width:991px) {
     .footer-main {
-        padding-bottom: 170px;
+        padding-bottom: 300px;
     }
 }
 
@@ -1426,7 +1452,7 @@
     font-weight: 800;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 30px;
+    font-size: 35px;
 }
 
 .footer-icons {
@@ -1470,6 +1496,14 @@
     font-family: "Sarabun", sans-serif;
 }
 
+#footer-fb {
+    color: #8e8e8e;
+}
+
+#footer-fb:hover {
+    color: #67ff00;
+}
+
 .footer-link:hover {
     color: #fff;
 }
@@ -1478,6 +1512,21 @@
     display: flex;
     align-items: start;
     margin-top: 35px;
+}
+
+@media (max-width:991px) {
+
+    .tags-main,
+    .tags-main-2 {
+        text-align: center;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .tags-main-2 {
+        margin-top: 90px;
+    }
 }
 
 .tags-main-2 {
@@ -1517,6 +1566,7 @@
 @media(max-width : 991px) {
     .footer-design {
         display: block;
+        text-align: center;
     }
 
     .fb {
@@ -1546,7 +1596,7 @@
     }
 
     .folow-me {
-        font-size: 25px;
+        font-size: 30px;
     }
 
     .created {

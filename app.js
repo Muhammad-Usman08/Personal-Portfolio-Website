@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
   var loaderContainer = document.getElementById("loaderContainer");
 
   setTimeout(function() {
-      loaderContainer.style.display = "none"; // hide loader container after 1 second
+      loaderContainer.style.display = "none";
   }, 1500);
 });
 
