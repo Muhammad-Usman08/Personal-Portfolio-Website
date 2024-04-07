@@ -1,9 +1,9 @@
 //Preloader
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
   var loaderContainer = document.getElementById("loaderContainer");
 
-  setTimeout(function() {
-      loaderContainer.style.display = "none";
+  setTimeout(function () {
+    loaderContainer.style.display = "none";
   }, 1500);
 });
 
@@ -68,7 +68,7 @@ let getValue = () => {
     alert('Please write email');
   }
 
-  else if(phoneNumber.value === ""){
+  else if (phoneNumber.value === "") {
     alert("Please write phone Number");
   }
 

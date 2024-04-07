@@ -764,114 +764,114 @@
 }
 
 
-
-
-
-/* ======Section 6 About======= */
-.sec-5-icons {
-    margin-left: 20px;
-    width: 60px;
-    margin-top: -30px;
-    margin-bottom: 50px;
-}
-
-.sec-6 {
-    margin-top: -100px;
-}
-
-.sec-5-heading {
-    margin-top: -20px;
-}
-
-.sec-6-heading {
-    margin-top: 20px;
-}
-
-@media (max-width : 450px) {
-    .sec-5-icons {
-        width: 55px;
-        margin-bottom: 40px;
-        margin-left: 15px;
-    }
-
-    .sec-5-heading {
-        margin-top: -90px;
-    }
-
-    .sec-6 {
-        margin-top: -10px;
-    }
-}
-
-.sec-6-main {
-    margin-bottom: 50px;
-}
-
-
 .sec-6-para {
-    font-weight: 100;
     color: #8e8e8e;
 }
 
-.sec-6-h3 {
-    margin-top: -30px;
-    font-size: 25px;
-    color: #c9ff19;
-    font-weight: 700;
+
+
+/* ======Section Education======= */
+.education-main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.hobbies {
-    font-weight: 500;
+.intermediate {
+    margin-left: 120px;
+}
+
+.edu-brand {
+    font-size: 38px;
+    font-family: "Sarabun", sans-serif;
+    background: linear-gradient(90deg, #c8ff24, #52cc00);
+    font-weight: 800;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.edu-year {
+    font-size: 20px;
+    border: 2px solid #5a5555;
+    padding: 10px 35px 10px 35px;
+    border-radius: 25px;
+    margin-right: auto;
+    margin-left: 7rem;
+}
+
+@media(max-width:1400px)and (min-width:1200px) {
+    .edu-year {
+        margin-left: 2rem;
+    }
+}
+
+
+.edu-name {
+    font-size: 20px;
+    font-family: "Sarabun", sans-serif;
     color: #fff;
 }
 
-@media (max-width: 400px) {
-    .sec-6-h3 {
-        font-size: 22px;
-        margin-top: -35px;
+.edu-para {
+    color: #8e8e8e;
+    font-family: "Sarabun", sans-serif;
+    margin-right: 50px;
+    margin-top: 30px;
+    font-weight: 600;
+
+}
+
+
+@media(max-width:991px) {
+    .education-main {
+        display: block;
     }
 
-    .sec-6-para {
-        font-size: 15px;
+    .intermediate {
+        margin-left: 0;
+        margin-top: 100px;
+    }
+
+    .edu-year {
+        display: block;
+        margin-right: auto;
+        margin-left: 0;
+        width: 12rem;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .edu-para {
+        margin-top: 0;
+    }
+}
+
+@media(max-width:540px) {
+    .edu-para {
+        margin-left: 10px;
+        margin-right: 5px;
+    }
+
+    .edu-brand,
+    .edu-name {
         margin-left: 10px;
     }
-}
 
-.hobbies-gif {
-    width: 100%;
+    .edu-brand {
+        font-size: 32px;
+        font-weight: 900
+    }
 
-}
+    .edu-name {
+        font-size: 18px
+    }
 
-@media (max-width : 20000px) and (min-width : 1201px) {
-    .hobbies-gif {
-        width: 75%;
-        margin-left: 6em;
-        margin-top: -99px;
+    .edu-year {
+        font-size: 18px;
+        padding: 10px 20px 10px 20px;
     }
 }
-
-@media (max-width : 1199px) {
-    .hobbies-gif {
-        margin-top: -70px;
-        margin-left: 4em;
-    }
-}
-
-@media (max-width:991px) and (min-width : 768px) {
-    .hobbies-gif {
-        margin-left: 4em;
-        margin-top: -40px;
-        width: 100%;
-    }
-}
-
-@media (max-width : 767px) {
-    .hobbies-gif {
-        margin-top: 25px;
-        margin-left: 0;
-    }
-}
-
 
 /* =====Section Certificates Styling======= */
 .Certificates {
