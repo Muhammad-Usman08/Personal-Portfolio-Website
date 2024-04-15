@@ -27,6 +27,16 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
+//Preloader
+document.addEventListener("DOMContentLoaded", function() {
+
+  document.querySelector('.loader-container').style.display = 'block';
+
+  setTimeout(function() {
+    document.querySelector('.loader-container').style.display = 'none';
+  }, 1600);
+});
+
 
 
 const firebaseConfig = {

@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Usman | Portfolio</title>
   <!-- title bar icon -->
-  <link rel="icon" href="project/icon.png" type="image/x-icon">
+  <link rel="icon" href="assest/project/icon.png" type="image/x-icon">
   <!-- firebase link -->
   <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-app.js"></script>
   <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-database.js"></script>
@@ -50,8 +50,16 @@
 
 
 
+ <!-- ====Section Loader==== -->
+ <div class="loader-container">
+  <div class="loader"></div>
+</div>
+
+
+
+
   <!-- ========Section Navbar======= -->
-  <nav class="navbar navbar-expand-lg mynavbar">
+  <nav class="navbar navbar-expand-lg mynavbar" style="overflow-x: hidden;">
     <div class="container">
 
       <a class="navbar-brand" href="#home">Muhammad <span class="navbar-span">Usman</span> </a>
@@ -64,6 +72,8 @@
           <span class="navbar-toggler-line"></span>
         </div>
       </button>
+      <a href="#contact" id="toggle-contact"><span class="navbartoggle-phone"><img src="assest/skills/phone.png"
+            alt="phone"></span><span id="toggle-phone">CONTACT</span></a>
 
       <div class="offcanvas offcanvas-start" id="navbarNav" tabindex="-1" aria-labelledby="navbarNavLabel">
         <div class="offcanvas-header">
@@ -133,8 +143,9 @@
           </div>
 
           <div class="col-md-4 col-sm-12">
-            <img class="coding-gif animate__animated animate__fadeInRight" src="assest/project/my-pic.png" alt="coding-gif">
-           </div> 
+            <img class="coding-gif animate__animated animate__fadeInRight" src="assest/project/my-pic.png"
+              alt="coding-gif">
+          </div>
 
         </div>
       </div>
@@ -162,12 +173,11 @@
           <h2>ABOUT</h2>
         </div>
         <div class="sec-2-para">
-          <p>Hello, I'm Muhammad Usman Khan, a dedicated Frontend
-            Developer with a passion for creating engaging and
-            user-friendly web experiences. My journey into the world of web development began with comprehensive
-            training at Jawaan Pakistan, where I honed my skills in HTML, CSS3, JavaScript, Bootstrap, Tailwind Css,
-            Git, Github, Firebase.Currently, I am expanding my skill set into mobile application development,
-            particularly focusing on Flutter, and become a Full Stack Developer.👨‍💻</p>
+          <p>Hello, I'm Muhammad Usman Khan, a dedicated Frontend Developer passionate about creating engaging and
+            user-friendly web experiences. My journey into web development began with comprehensive training at Jawaan
+            Pakistan, where I honed my skills in HTML, CSS3, JavaScript, Bootstrap, Tailwind CSS, Git, GitHub, and
+            Firebase. Currently, I am expanding my skill set into mobile application development, focusing on Flutter,
+            with the goal of becoming a Full Stack Developer. 👨‍💻</p>
         </div>
       </div>
     </div>
@@ -194,7 +204,7 @@
     <main class="education-main" style="margin-top: -30px;">
       <div class="education">
         <h3 class="edu-brand">Matriculation</h3>
-        <p class="edu-name">Metropolis Education System <span class="edu-year">2021-2022</span></p>
+        <p class="edu-name">Metropolis Education System <span class="edu-year">2022-2023</span></p>
         <p class="edu-para">I completed my matriculation from Metropolis Academy and achieved an outstanding A+ grade in
           the Secondary School Certificate (SSC) examinations.</p>
       </div>
@@ -241,7 +251,8 @@
           <img class="Certificates Css" src="assest/Certificates/css.png" alt="Certificate">
         </div>
         <div class="col-md-4">
-          <img class="Certificates Css" src="assest/Certificates/cisco.png" alt="Certificate" style="margin-bottom: 120px;">
+          <img class="Certificates Css" src="assest/Certificates/cisco.png" alt="Certificate"
+            style="margin-bottom: 120px;">
         </div>
       </div>
     </div>
