@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
   setTimeout(function() {
     document.querySelector('.loader-container').style.display = 'none';
-  }, 1600);
+  }, 1300);
 });
 
 
