@@ -16,9 +16,9 @@
     height: 100%;
     background: black;
     z-index: 9999;
-  }
-  
-  .loader {
+}
+
+.loader {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -28,24 +28,36 @@
     background: radial-gradient(circle closest-side, #67ff00 80%, #0000) 0/calc(100%/3) 100% space;
     clip-path: inset(0 100% 0 0);
     animation: l1 1s steps(4) infinite;
-  }
+}
 
-  @media(max-width:991px){
-    .loader{
+@media(max-width:991px) {
+    .loader {
         width: 30px;
     }
-  }
-  
-  @keyframes l1 {
+}
+
+@keyframes l1 {
     to {
-      clip-path: inset(0 -34% 0 0);
+        clip-path: inset(0 -34% 0 0);
     }
-  }
+}
 
 
 /* =====Navbar Styling===== */
+.navbar {
+    position: fixed;
+    z-index: 1030;
+    width: 100%;
+}
+
 .mynavbar {
-    background-color: black;
+    background-color: #111111;
+}
+
+@media(max-width:1399px) and (min-width:992px) {
+    .mynavbar {
+        margin-top: -100px;
+    }
 }
 
 .offcanvas {
@@ -88,14 +100,19 @@
 }
 
 .nav-link {
-    margin-left: 49px;
+    margin-left: 40px;
     font-weight: 700;
     font-family: "Sarabun", sans-serif;
     color: #fff;
 }
 
-.contact {
-    border: 2px solid #67ff00;
+
+.resume {
+    border: 2px solid;
+    border-top-color: #67ff00;
+    border-right-color: #67ff00;
+    border-left-color: #c5ff18;
+    border-bottom-color: #c5ff18;
     background-color: black;
     color: #fff;
 }
@@ -120,6 +137,12 @@
     font-family: "Sarabun", sans-serif;
 }
 
+@media(max-width:991px) {
+    #toggle-navbar-phone {
+        display: none;
+    }
+}
+
 @media(max-width:767px) {
     #toggle-phone {
         display: none;
@@ -139,9 +162,14 @@
     }
 }
 
-#toggle-contact span img {
-    width: 24px;
-    margin-right: 8px;
+#toggle-contact:hover {
+    background: linear-gradient(to right, #53cc00 1%, #c5ff18 95%);
+}
+
+#toggle-contact span {
+    font-size: 20px;
+    margin-left: 8px;
+    margin-right: 10px;
 }
 
 @media(max-width:991px) {
@@ -222,22 +250,6 @@
     position: absolute;
     top: 0;
     right: 20px;
-}
-
-.hireme {
-    border: 1px solid white;
-    border-radius: 5px;
-    background-color: black;
-    border: none;
-    text-decoration: none;
-    text-align: center;
-    font-size: 17px;
-    color: #F1CCC2 !important;
-}
-
-.hireme:hover {
-    color: #e0e0e0 !important;
-    text-decoration: underline 3px #e0e0e0;
 }
 
 
@@ -387,7 +399,7 @@
     background-color: black;
     background-size: cover;
     background-position-x: right;
-    padding-top: 100px;
+    padding-top: 200px;
     padding-bottom: 80px;
     margin-bottom: 14em;
 }
