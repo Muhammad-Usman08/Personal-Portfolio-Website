@@ -55,9 +55,9 @@
 }
 
 @media(max-width:1399px) and (min-width:992px) {
-    .mynavbar {
-        margin-top: -100px;
-    }
+    /* .mynavbar {
+        margin-top: -30px;
+    } */
 }
 
 .offcanvas {
@@ -263,7 +263,7 @@
 
     .mynavbar {
         background-color: #111111;
-        margin-top: -300px;
+        /* margin-top: -150px; */
     }
 
     .navbar-toggler {
@@ -329,9 +329,9 @@
         position: fixed;
     }
 
-    .mynavbar {
-        background-color: #111111;
-    }
+    /* .mynavbar {
+        margin-top: 140px;
+    } */
 
     .navbar-toggler {
         z-index: 1031;
@@ -368,9 +368,9 @@
 }
 
 @media(max-width : 450px) {
-    .mynavbar {
-        margin-top: 50px;
-    }
+    /* .mynavbar {
+        margin-top: 150px;
+    } */
 }
 
 @media only screen and (max-width: 318px) {
@@ -399,7 +399,7 @@
     background-color: black;
     background-size: cover;
     background-position-x: right;
-    padding-top: 200px;
+    padding-top: 130px;
     padding-bottom: 80px;
     margin-bottom: 14em;
 }
@@ -411,7 +411,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: var(--h1-font);
-    font-size: 75px;
+    font-size: 90px;
 }
 
 .sec-1 h2 {
@@ -424,41 +424,42 @@
 
 .sec-1 h3 {
     font-family: var(--h1-font);
-    font-size: 45px;
+    font-size: 75px;
     font-weight: 900;
-    color: #67ff00;
+    background: linear-gradient(90deg, #c8ff24, #52cc00);
+    font-weight: 900;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     margin-top: 100px;
     margin-bottom: 25px;
 }
 
 .coding-gif {
-    width: 114%;
-    margin-top: -70px;
+    width: 150%;
 }
 
 .sec1-secEnd {
-    margin-top: -306px;
+    margin-top: -321px;
 }
 
 @media (max-width: 991px) and (min-width: 768px) {
     .coding-gif {
         margin-top: -30px;
-        width: 150%;
-        margin-left: -69px;
+        width: 200%;
     }
 
     .sec1-secEnd {
-        margin-top: -295px;
+        margin-top: -311px;
     }
 }
 
 @media(max-width:767px) {
     .coding-gif {
-        width: 100%;
+        display: none;
     }
 
     .sec1-secEnd {
-        margin-top: -182px;
+        margin-top: 1px;
     }
 }
 
@@ -471,18 +472,8 @@
         position: relative;
     }
 
-    .coding-gif {
-        z-index: 1;
-    }
-
-    .coding-gif {
-        width: 100%;
-        margin-top: -100px;
-        margin-left: 10px;
-    }
-
     .sec1-secEnd {
-        margin-top: -225px;
+        margin-top: 100px;
     }
 }
 
@@ -490,7 +481,7 @@
 /* ===Media Querry=== */
 @media (max-width : 1399px) and (min-width : 992px) {
     .sec-1-main {
-        margin-top: 100px;
+        padding-top: 200px;
     }
 
     .sec-1 h3 {
@@ -501,21 +492,20 @@
 
 @media (max-width : 991px) and (min-width : 768px) {
     .sec-1-main {
-        padding-top: 0px;
+        padding-top: 150px;
         padding-bottom: 70px;
-        margin-top: 300px;
     }
 
     .sec-1 h1 {
-        font-size: 60px;
+        font-size: 75px;
     }
 
     .sec-1 h2 {
-        font-size: 20px;
+        font-size: 22px;
     }
 
     .sec-1 h3 {
-        font-size: 35px;
+        font-size: 55px;
     }
 
     .hireme {
@@ -526,26 +516,28 @@
 @media(max-width :767px) {
     .sec-1-main {
         text-align: center;
-        margin-bottom: 100px;
+        background-image: url('assest/project/my-pic.png');
+        background-size: cover;
+        background-position: left;
+        background-repeat: no-repeat;
     }
 
     .sec-1 h1 {
-        font-size: 50px;
+        font-size: 60px;
     }
 
     .sec-1 h2 {
         font-size: 20px;
-        text-align: left;
         margin-left: 15px;
     }
 
     .sec-1 h3 {
-        font-size: 40px;
+        font-size: 50px;
 
     }
 }
 
-@media(max-width : 533px) {
+@media(max-width : 767px) {
     .sec-1 h2 {
         text-align: center;
     }
@@ -554,15 +546,10 @@
 @media (max-width : 450px) {
     .sec-1-main {
         margin-bottom: 9em;
-        margin-top: -50px;
-    }
-
-    .coding-gif {
-        width: 100%;
     }
 
     .sec-1 h1 {
-        font-size: 50px;
+        font-size: 55px;
     }
 
     .sec-1 h2 {
@@ -570,7 +557,7 @@
     }
 
     .sec-1 h3 {
-        font-size: 30px;
+        font-size: 40px;
     }
 }
 
