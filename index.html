@@ -51,9 +51,9 @@
 
 
   <!-- ====Section Loader==== -->
-  <!-- <div class="loader-container">
+  <div class="loader-container">
     <div class="loader"></div>
-  </div> -->
+  </div>
 
 
 
@@ -72,8 +72,9 @@
           <span class="navbar-toggler-line"></span>
         </div>
       </button>
-      <a href="assest/project/Muhammad Usman (1).pdf" download id="toggle-contact"><span class="navbartoggle-phone"><i
-            class="fa-regular fa-file"></i></span><span id="toggle-phone">RESUME</span></a>
+      <a href="assest/project/Muhammad Usman (1).pdf" download id="toggle-contact"><span class="navbartoggle-phone"><img
+            class="resume-icon" src="assest/project/resume.png" alt="resume"></span><span
+          id="toggle-phone">RESUME</span></a>
 
       <div class="offcanvas offcanvas-start" id="navbarNav" tabindex="-1" aria-labelledby="navbarNavLabel">
         <div class="offcanvas-header">
@@ -115,7 +116,8 @@
 
             <li class="nav-item">
               <a id="toggle-navbar-phone" class="nav-link resume" href="assest/project/Muhammad Usman (1).pdf" download>
-                &nbsp;<span class="navbar-phone"><i class="fa-regular fa-file"></i></span>&nbsp;&nbsp; RESUME</a>
+                &nbsp;<span class="navbar-phone"><img class="resume-icon" src="assest/project/resume.png" alt=""></span>
+                <span class="navbar-resume">RESUME</span></a>
             </li>
           </ul>
         </div>
@@ -143,14 +145,13 @@
                 <h2 class="">Frontend Developer.🖥️</h2>
                 <h2 class="">Exploring Flutter🚀</h2>
                 <h2 class="">Tech Enthusiast👨‍💻</h2>
-                
+
               </div>
             </div>
           </div>
 
           <div class="col-md-4 col-sm-12">
-            <img class="coding-gif" src="assest/project/my-pic-2.png"
-              alt="coding-gif">
+            <img class="coding-gif" src="assest/project/my-pic-2.png" alt="coding-gif">
           </div>
 
         </div>
@@ -179,7 +180,11 @@
           <h2>ABOUT</h2>
         </div>
         <div class="sec-2-para">
-          <p>👋 Hello, I'm Muhammad Usman, a dedicated Frontend Developer passionate about creating and engaging user-friendly web experiences. My journey into web development began with comprehensive training at Jawaan Pakistan, where I honed my skills in HTML, CSS3, JavaScript, ReactJs, Bootstrap, Git, Tailwind CSS, GitHub, and Firebase. 🚀 Currently, I am expanding my skills into mobile application development, focusing on Flutter. 📱👨‍💻"</p>
+          <p>👋 Hello, I'm Muhammad Usman, a dedicated Frontend Developer passionate about creating and engaging
+            user-friendly web experiences. My journey into web development began with comprehensive training at Jawaan
+            Pakistan, where I honed my skills in HTML, CSS3, JavaScript, ReactJs, Bootstrap, Git, Tailwind CSS, GitHub,
+            and Firebase. 🚀 Currently, I am expanding my skills into mobile application development, focusing on
+            Flutter. 📱👨‍💻"</p>
         </div>
       </div>
     </div>
@@ -239,24 +244,59 @@
         <p class="sec-6-para text-center" style="font-size: 19px; font-weight: 500;">Certificates that I Acheived!</p>
       </div>
 
-      <div class="row">
+      <div class="row certificate-main">
         <div class="col-md-4">
-          <img class="Certificates" src="assest/Certificates/frontend.jpeg" alt="Certificate">
+          <div class="certificate">
+            <img src="assest/Certificates/frontend.jpeg" alt="Certificate">
+            <h4>Frontend Developer</h4>
+            <span>Skills: HTML, CSS, Bootstrap, Tailwind Css, JavaScript, Git, Github, Firebase</span>
+          </div>
         </div>
+
+
         <div class="col-md-4">
-          <img class="Certificates" src="assest/Certificates/javascript.jpeg" alt="Certificate">
+          <div class="certificates">
+            <img src="assest/Certificates/javascript.jpeg" alt="Certificate">
+            <h4>JavaScript</h4>
+            <span>Skills: OOP (Object Oriented Programming)</span>
+          </div>
         </div>
+
+
         <div class="col-md-4">
-          <img class="Certificates" src="assest/Certificates/html.png" alt="Certificate">
+          <div class="certificates">
+            <img src="assest/Certificates/html.png" alt="Certificate">
+            <h4>HTML</h4>
+            <span>Skills: Forms and Inputs, Semantic HTML, Hyperlinks and Anchors</span>
+          </div>
         </div>
+
+
         <div class="col-md-4">
-          <img class="Certificates Css" src="assest/Certificates/css.png" alt="Certificate">
+          <div class="certificates">
+            <img src="assest/Certificates/css.png" alt="Certificate">
+            <h4>CSS</h4>
+            <span>Skills: Responsive Design, Positioning, Flexbox, CSS Grid</span>
+          </div>
         </div>
+
         <div class="col-md-4">
-          <img class="Certificates Css" src="assest/Certificates/cisco.png" alt="Certificate"
-            style="margin-bottom: 120px;">
+          <div class="certificates certificate-end">
+            <img src="assest/Certificates/cisco.png" alt="Certificate">
+            <h4>Network Security</h4>
+            <span>Skills: Understanding Network Fundamentals, Authentication and Authorization</span>
+          </div>
         </div>
+
+
+
+
+
+
+
       </div>
+
+    </div>
     </div>
   </section>
 
@@ -280,100 +320,101 @@
     <div class="sec-2-main skills-main" id="skills">
       <div class="container">
         <div class="sec-2">
-          <h2 id="myskills"> MY SKILLS</h2>
+          <h2 id="myskills">MY SKILLS</h2>
           <p class="sec-6-para text-center" style="font-size: 19px; font-weight: 500;">Languages and Tools that I Use
           </p>
-
           <div class="row">
-
             <div class="col-md-3 card-1">
-              <div class="skills-main" data-aos="fade-down" data-aos-duration="1100">
+              <div class="">
                 <div class="skils-image">
                   <img src="assest/skills/html.png" alt="html">
-                  <p>95%</p>
+                  <p class="percentage" data-percentage="95%">0%</p>
                 </div>
                 <p class="skill-name">HTML</p>
               </div>
             </div>
 
 
-            <div class="col-md-3 card-2">
-              <div class="skills-main" data-aos="fade-down" data-aos-duration="1100">
+            <div class="col-md-3 card-1">
+              <div class="skills-main">
                 <div class="skils-image">
                   <img src="assest/skills/css.png" alt="css">
-                  <p>90%</p>
+                  <p class="percentage" data-percentage="90%">0%</p>
                 </div>
                 <p class="skill-name">CSS</p>
               </div>
             </div>
 
 
-            <div class="col-md-3 card-2">
-              <div class="skills-main" data-aos="fade-down" data-aos-duration="1100">
+
+            <div class="col-md-3 card-1">
+              <div class="skills-main">
                 <div class="skils-image">
                   <img src="assest/skills/bootstrap.png" alt="bootstrap">
-                  <p>87%</p>
+                  <p class="percentage" data-percentage="87%">0%</p>
                 </div>
                 <p class="skill-name">Bootstrap</p>
               </div>
             </div>
 
 
-            <div class="col-md-3 card-2">
-              <div class="skills-main" data-aos="fade-down" data-aos-duration="1100">
+
+            <div class="col-md-3 card-1">
+              <div class="skills-main">
                 <div class="skils-image">
                   <img src="assest/skills/tailwindcs.png" alt="tailwindcss">
-                  <p>60%</p>
+                  <p class="percentage" data-percentage="80%">0%</p>
                 </div>
                 <p class="skill-name">Tailwind Css</p>
               </div>
             </div>
 
 
-            <div class="col-md-3 card-2">
-              <div class="skills-main" data-aos="fade-up" data-aos-duration="1100">
+
+            <div class="col-md-3 card-1">
+              <div class="skills-main">
                 <div class="skils-image">
                   <img src="assest/skills/javascript.png" alt="javascript">
-                  <p>75%</p>
+                  <p class="percentage" data-percentage="75%">0%</p>
                 </div>
                 <p class="skill-name">JavaScript</p>
               </div>
             </div>
 
 
-
-            <div class="col-md-3 card-2">
-              <div class="skills-main" data-aos="fade-up" data-aos-duration="1100">
+            <div class="col-md-3 card-1">
+              <div class="skills-main">
                 <div class="skils-image">
-                  <img src="assest/skills/firebase.png" alt="firebase">
-                  <p>85%</p>
+                  <img src="assest/skills/react.png" alt="react">
+                  <p class="percentage" data-percentage="40%">0%</p>
                 </div>
-                <p class="skill-name">Firebase</p>
+                <p class="skill-name">React Js</p>
               </div>
             </div>
 
 
-            <div class="col-md-3 card-2">
-              <div class="skills-main" data-aos="fade-up" data-aos-duration="1100">
+
+            <div class="col-md-3 card-1">
+              <div class="skills-main">
                 <div class="skils-image">
                   <img src="assest/skills/dart.png" alt="dart">
-                  <p>50%</p>
+                  <p class="percentage" data-percentage="75%">0%</p>
                 </div>
                 <p class="skill-name">Dart</p>
               </div>
             </div>
 
 
-            <div class="col-md-3 card-2">
-              <div class="skills-main" data-aos="fade-up" data-aos-duration="1100">
+
+            <div class="col-md-3 card-1">
+              <div class="skills-main">
                 <div class="skils-image">
-                  <img src="assest/skills/github.png" alt="github">
-                  <p>80%</p>
+                  <img src="assest/skills/firebase.png" alt="firebase">
+                  <p class="percentage" data-percentage="85%">0%</p>
                 </div>
-                <p class="skill-name">Git & Github</p>
+                <p class="skill-name">Firebase</p>
               </div>
             </div>
-
 
 
           </div>

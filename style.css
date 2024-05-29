@@ -111,6 +111,20 @@
     color: #fff;
 }
 
+.navbar-resume {
+    color: #fff;
+}
+
+#toggle-navbar-phone:hover {
+    background: linear-gradient(to right, #53cc00 1%, #c5ff18 95%);
+}
+
+.resume-icon {
+    width: 25px;
+    margin-top: -5px;
+    height: 25px;
+}
+
 @media(min-width:991px) {
     #toggle-contact {
         display: none;
@@ -323,10 +337,6 @@
         position: fixed;
     }
 
-    /* .mynavbar {
-        margin-top: 140px;
-    } */
-
     .navbar-toggler {
         z-index: 1031;
     }
@@ -359,12 +369,6 @@
     .navbar-phone img {
         display: none;
     }
-}
-
-@media(max-width : 450px) {
-    /* .mynavbar {
-        margin-top: 150px;
-    } */
 }
 
 @media only screen and (max-width: 318px) {
@@ -489,7 +493,9 @@
         margin-top: -20rem;
     }
 
-    .sec-1 h1, .sec-1 h2, .sec-1 h3 {
+    .sec-1 h1,
+    .sec-1 h2,
+    .sec-1 h3 {
         font-size: 60px;
         position: relative;
         z-index: 2;
@@ -552,10 +558,10 @@
 }
 
 
-@media(max-width:390px){
-    .coding-gif{
-        width: 201%;
-        margin-left: -140px;
+@media(max-width:390px) {
+    .coding-gif {
+        width: 181%;
+        margin-left: -120px;
     }
 }
 
@@ -663,11 +669,11 @@
 }
 
 @media(max-width : 430px) {
-        .sec-2-para {
-            margin-left: 12px;
-            margin-right: 2px;
-            text-align: center;
-        }
+    .sec-2-para {
+        margin-left: 12px;
+        margin-right: 2px;
+        text-align: center;
+    }
 
     .sec-2 h2 {
         font-size: 35px;
@@ -677,103 +683,8 @@
 
 
 
-/* ********************About Page******************** */
-/* =======Section 2 About ====== */
-.sec-2-para-text {
-    margin-right: 40px;
-    margin-top: 60px;
-    font-weight: 100;
-}
-
-
-@media (max-width :767px) {
-    .sec-2-para-text {
-        margin-top: 0px;
-        margin-bottom: 4rem;
-        margin-right: 10px;
-    }
-}
-
-@media (max-width : 1199px) and (min-width :991px) {
-    .sec-2-para-text {
-        margin-top: 1px;
-    }
-}
-
-@media (max-width: 991px) and (min-width: 768px) {
-    .sec-2-para {
-        margin-top: -4em;
-        width: 100%;
-    }
-}
-
-
-
-/* ====Section 3 About-Page====== */
-.sec-3-heading {
-    padding-bottom: 2em;
-}
-
-@media(max-width:767px) {
-    .sec-3-heading {
-        padding-bottom: 30px;
-    }
-}
-
-
-.sec-3-para {
-    margin-top: -70px;
-    font-size: 18px;
-    font-weight: 600;
-}
-
-.sec-3-span {
-    font-size: 30px;
-    margin-left: -18px;
-}
-
-.sec-3-p {
-    font-size: 18px;
-    font-weight: 600;
-    margin-bottom: 120px;
-}
-
-@media (max-width :991px) and (min-width : 767px) {
-    .sec-3-para {
-        width: 100%;
-    }
-
-    .sec-3-p {
-        width: 100%;
-    }
-}
-
-@media(max-width : 575px) {
-    .sec-3-span {
-        display: none;
-    }
-
-    .sec-3-p {
-        margin-bottom: 100px;
-    }
-}
-
-@media (max-width : 450px) {
-    .sec-3-para {
-        font-size: 16px;
-        width: 100%;
-    }
-
-    .sec-3-p {
-        font-size: 16px;
-        margin-bottom: 70px;
-    }
-}
-
-
-
-/* =====Section 5 About ===== */
-@media(min-width:992px) {
+/* =====Section 5 Skills Section ===== */
+@media (min-width: 992px) {
     #myskills {
         margin-top: -30px;
     }
@@ -810,21 +721,29 @@
     transform: scale(1.1);
 }
 
-@media(max-width:991px) and (min-width:768px) {
+@media (max-width: 991px) and (min-width: 768px) {
     .skils-image img {
         width: 100%;
     }
 }
 
-@media(max-width:767px)and (min-width:450px) {
+@media (max-width: 767px) and (min-width: 450px) {
     .skils-image img {
         width: 35%;
     }
+
+    .skills-main {
+        margin-top: -40px;
+    }
 }
 
-@media(max-width:449px) {
+@media (max-width: 449px) {
     .skils-image img {
         width: 43%;
+    }
+
+    .skills-main {
+        margin-top: -50px;
     }
 }
 
@@ -836,34 +755,35 @@
     font-family: "Sarabun", sans-serif;
 }
 
-@media(max-width:991px) and (min-width:768px) {
+@media (max-width: 991px) and (min-width: 768px) {
     .skils-image img {
         width: 100%;
     }
 }
 
-@media(max-width:767px)and (min-width:450px) {
+@media (max-width: 767px) and (min-width: 450px) {
     .skils-image img {
         width: 35%;
     }
 }
 
-@media(max-width:449px) {
+@media (max-width: 449px) {
     .skils-image img {
         width: 43%;
     }
 }
 
-@media(max-width:767px) {
+@media (max-width: 767px) {
     .card-2 {
         margin-top: -50px;
     }
 }
 
-
 .sec-6-para {
     color: #8e8e8e;
 }
+
+
 
 
 
@@ -971,17 +891,110 @@
 }
 
 /* =====Section Certificates Styling======= */
-.Certificates {
-    width: 90%;
-    height: auto;
+.certificate-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 200px;
+}
+
+.certificate,
+.certificates {
+    position: relative;
+    padding: 30px 40px 35px 30px;
+    text-align: center;
+    background-color: #111111;
+    transition: 0.5s;
+    border: 6px solid #111111;
     margin-bottom: 20px;
 }
 
-.Css {
-    margin-top: 20px;
+.certificate::before,
+.certificate::after {
+    content: "";
+    position: absolute;
+    background-color: #67ff00;
 }
 
-@media(max-width:566px) {
+.certificate::before {
+    top: -5px;
+    left: -5px;
+    width: 50%;
+    height: 5px;
+}
+
+.certificate::after {
+    top: -5px;
+    left: -5px;
+    width: 5px;
+    height: 50%;
+    background-color: #c5ff18;
+}
+
+/* for bottom */
+.certificate-end::before,
+.certificate-end::after {
+    content: "";
+    position: absolute;
+    background-color: #67ff00;
+}
+
+.certificate-end::before {
+    bottom: -5px;
+    right: -5px;
+    width: 50%;
+    height: 5px;
+}
+
+.certificate-end::after {
+    bottom: -5px;
+    right: -5px;
+    width: 5px;
+    height: 50%;
+    background-color: #c5ff18;
+}
+
+
+.certificates:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+
+.certificate img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+}
+
+.certificates img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+}
+
+.certificate h4 {
+    color: #fff;
+    margin-bottom: 20px;
+    font-family: 'Poppins';
+}
+
+.certificates h4 {
+    color: #fff;
+    margin-bottom: 20px;
+    font-family: 'Poppins';
+}
+
+.certificate,
+.certificates span {
+    color: #52cc00;
+    font-family: 'Lato';
+    font-family: 'Poppins';
+}
+
+
+/* @media(max-width:566px) {
     .Certificates {
         margin-left: 20px;
     }
@@ -989,7 +1002,7 @@
     .Css {
         margin-top: 0;
     }
-}
+} */
 
 
 /* *******************Project Styling********************* */
