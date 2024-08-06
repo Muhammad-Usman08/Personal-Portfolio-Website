@@ -926,6 +926,14 @@
 }
 
 
+
+/* *******************Experience Styling********************* */
+.experience{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
 /* *******************Project Styling********************* */
 
 /* =====section 7======= */
