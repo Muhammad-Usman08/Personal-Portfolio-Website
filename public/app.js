@@ -38,28 +38,6 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 
-//skills 
-document.addEventListener("DOMContentLoaded", function() {
-  const percentages = document.querySelectorAll('.percentage');
-
-  percentages.forEach(percentage => {
-      const targetValue = parseInt(percentage.getAttribute('data-percentage'));
-      let counter = 0;
-      const updateCounter = () => {
-          if (counter < targetValue) {
-              counter++;
-              percentage.textContent = `${counter}%`;
-              setTimeout(updateCounter, 50); // Increase timeout for slower animation
-          } else {
-              percentage.textContent = `${targetValue}%`;
-          }
-      };
-      updateCounter();
-  });
-});
-
-
-
 const firebaseConfig = {
   apiKey: "AIzaSyCZU3lD7Y6BuRF9iJu7H4POOZOM0H0B8OM",
   authDomain: "musmanjs.firebaseapp.com",

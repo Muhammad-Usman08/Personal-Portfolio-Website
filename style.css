@@ -427,8 +427,8 @@
     margin-top: 100px;
 }
 
-.coding-gif {
-    width: 100%;
+.my-image {
+    width: 150%;
 }
 
 .sec1-secEnd {
@@ -438,14 +438,15 @@
 
 
 /* ===Media Querry=== */
+
+
 @media (max-width: 1399px) and (min-width: 992px) {
-    .sec-1-main {
-        padding-top: 200px;
+    .sec-1 h3 {
+        font-size: 50px;
     }
 
-    .sec-1 h3 {
-        margin-top: 0;
-        font-size: 40px;
+    .sec-1 h1{
+        font-size: 70px;
     }
 }
 
@@ -467,7 +468,7 @@
         font-size: 55px;
     }
 
-    .coding-gif {
+    .my-image {
         width: 230%;
     }
 
@@ -505,7 +506,7 @@
         font-size: 55px;
     }
 
-    .coding-gif {
+    .my-image {
         width: 135%;
         margin-top: -35rem;
         margin-left: -50px;
@@ -539,7 +540,7 @@
         position: relative;
     }
 
-    .coding-gif {
+    .my-image {
         width: 115%;
         margin-top: -16rem;
         margin-left: 0px;
@@ -556,7 +557,7 @@
 
 
 @media(max-width:390px) {
-    .coding-gif {
+    .my-image {
         width: 115%;
         margin-top: -16em;
         margin-left: -10px;
@@ -929,6 +930,12 @@
     font-family: 'Poppins';
 }
 
+@media(max-width: 555px) {
+    .certificate-main {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+}
 
 
 /* *******************Experience Styling********************* */
@@ -987,6 +994,7 @@
 .card-main {
     width: 100%;
     max-width: 370px;
+    height: 100%;
     padding: 40px;
     background-color: #111111;
     transition: 0.6s !important;
@@ -1011,7 +1019,7 @@
 .card-text {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
-    margin: 0 50px 30px;
+    margin: 0 35px 25px;
     color: #8e8e8e;
     text-align: center;
 }
@@ -1020,7 +1028,7 @@
     width: 100%;
     height: auto;
     max-width: 250px;
-    max-height: 320px;
+    max-height: 350px;
 }
 
 #sunshine-main::before,
@@ -1073,7 +1081,7 @@
 #todo-main::before {
     bottom: -5px;
     right: -5px;
-    width: 30%;
+    width: 40%;
     height: 8px;
 }
 
@@ -1144,6 +1152,11 @@
         content: none;
     }
 
+    #todo-main::before,
+    #todo-main::after {
+        content: none;
+    }
+
 }
 
 @media (max-width: 450px) {
@@ -1154,13 +1167,18 @@
     }
 
     .card-title {
-        font-size: 20px;
+        font-size: 23px;
     }
 
     .card-text {
-        font-size: 13px;
+        font-size: 14px;
         margin-left: 15px;
         margin-right: 15px;
+    }
+
+    .card-image {
+        width: 200px;
+        height: 300px;
     }
 }
 
